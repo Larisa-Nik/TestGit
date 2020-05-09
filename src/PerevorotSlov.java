@@ -8,7 +8,7 @@ public class PerevorotSlov {
         String str = scan.nextLine();
         a = str.length();
         b = a;
-        
+
         for (i = 0; i < a; i++) {
             b = b - 1;
             char c = str.charAt(b);

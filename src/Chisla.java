@@ -8,6 +8,9 @@ public class Chisla {
         a = scan.nextInt();    // ввод числа с клавиатуры от 1 до 999
         String str = Integer.toString(a);  // преобразование введенного числа в строку
         kol = str.length();// определение количества символов в строке
+        if (a == 0) {System.out.print("");
+
+        } else
         switch (kol){
             case 1:
             { if (a % 2 == 0) {System.out.println("четное однозначное число");
@@ -21,7 +24,7 @@ public class Chisla {
                 if ( a % 2 == 0) {
                     System.out.println("четное трехзначное число");
                 } else System.out.println("нечетное трехзначное число"); break;
-            default:   System.out.println("");
+            default:   System.out.print("");
             }
         }
     }

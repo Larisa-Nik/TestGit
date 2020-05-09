@@ -3,7 +3,6 @@
     public class MassivSlov {
 
         public static void main(String[] args) {
-
             System.out.print("Введите любое целое число от 1 до 10000: ");
             Scanner scan = new Scanner(System.in);
             int number = scan.nextInt();
@@ -17,7 +16,7 @@
                     {"", "один доллар", "два доллара", "три доллара", "четыре доллара", "пять долларов", "шестьдолларов", "семь долларов", "восемь долларов", "девять долларов"}  //k4
 
             };
-
+// проверка чисел
             if (1000 < number) {
                 System.out.println("Вы ввели четырехзначное число " + number);
             }

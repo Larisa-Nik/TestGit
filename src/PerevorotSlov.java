@@ -1,5 +1,5 @@
 import java.util.Scanner; // импорт сканера
-
+///
 public class PerevorotSlov {
 
     public static void main(String[] args) {

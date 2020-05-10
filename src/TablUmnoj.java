@@ -1,4 +1,6 @@
 public class TablUmnoj {
+    //таблица умножения только с оператором while
+    //
     public static void main(String[] args) {
         int a = 1,b=1,c;
         while (b <= 10){

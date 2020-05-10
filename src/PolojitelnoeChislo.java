@@ -11,7 +11,7 @@ public class PolojitelnoeChislo {
             a = scan.nextInt();    // ввод числа с клавиатуры от 1 до 999
             if (a > 0) kol = kol + 1;
         }
-        if (kol == 0) System.out.print("");
+        if (kol == 0) System.out.print(0);
         else System.out.print(kol);
 
     }

@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+//диапазон чисел с 1-999, выводить на экран описание: четное , нечетное, и какая разрядность
+//если выходит за предел , то в таком случае ничего не выводить на экран. цифра ноль тоже за пределом , как и отрицательные числа
 public class Chisla {
 
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Chisla {
         a = scan.nextInt();    // ввод числа с клавиатуры от 1 до 999
         String str = Integer.toString(a);  // преобразование введенного числа в строку
         kol = str.length();// определение количества символов в строке
-        if (a == 0) {System.out.print("");
+        if (a <= 0) {System.out.print("");
 
         } else
         switch (kol){

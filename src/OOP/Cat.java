@@ -1,5 +1,5 @@
 package OOP;
-
+ //сравнение котов нашего и чужого
 public class Cat {  //класс Cat
     public int age;
     public int weight;
@@ -14,8 +14,7 @@ public class Cat {  //класс Cat
     public boolean fight(Cat anotherCat) {
         int x = 0;
         int y = 0;
-        if (this.age >= anotherCat.age) {
-            x++;
+        if (this.age >= anotherCat.age) { x++;
         }
         else if (this.age < anotherCat.age) { y++;
         }
@@ -23,9 +22,9 @@ public class Cat {  //класс Cat
         }
         else if (this.weight < anotherCat.weight) { y++;
         }
-        if (this.strenght>=anotherCat.strenght){x++;
+        if (this.strenght>=anotherCat.strenght){ x++;
         }
-        else if(this.strenght < anotherCat.strenght){y++;}
+        else if(this.strenght < anotherCat.strenght){ y++;}
         if(x>y){return true;}
         else {return false;}
     }

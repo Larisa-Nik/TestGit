@@ -2,7 +2,7 @@ package OOP;
 
 public class GetAndSet1 {
     public static void main(String[] args) {
-        Person person = new Person();
+      //  Person person = new Person();
 
 
 }
@@ -26,6 +26,8 @@ public class GetAndSet1 {
         public void setSex(char userSex){
             sex=userSex;
         }
-        public char
+        public char getSex(){
+            return sex;
+        }
     }
     }

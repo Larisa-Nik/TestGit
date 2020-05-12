@@ -1,5 +1,5 @@
 package OOP;
-
+//использование геттеров и сеттеров
 public class GetAndSet {
 
     public static void main(String[] args) {

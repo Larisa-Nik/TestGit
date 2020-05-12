@@ -12,7 +12,7 @@ public class Sortirovka {
                 pri[i] = Integer.parseInt(sNum);  // преобразование строки в число
             }
             Arrays.sort(pri);  // сортировка элеметов массива
-            System.out.println(Arrays.toString(pri));//возвращает строковое представление  Arrays.toString(pri)
+            System.out.println(Arrays.toString(pri));//Arrays.toString(pri)-возвращает строковое представление одномерного массива
         }
         public static void main(String[] args) throws IOException {
             faner(3);

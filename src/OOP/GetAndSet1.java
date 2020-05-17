@@ -2,16 +2,16 @@ package OOP;
 
 public class GetAndSet1 {
     public static void main(String[] args) {
-      //  Person person = new Person();
+        Person person = new Person();
 
 
 }
-    class Person{
+  public class  Person{
         private String name;
         private int age;
         private char sex;
 
-        public void setName(String userName){
+        public  void setName(String userName){
         name=userName;
         }
         public String getName(){

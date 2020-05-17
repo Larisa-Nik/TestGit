@@ -1,5 +1,4 @@
 package OOP;
-
 //сравнение котов нашего и чужого
 public class Cat {  //класс Cat
     public int age;

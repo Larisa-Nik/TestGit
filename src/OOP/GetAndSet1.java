@@ -2,11 +2,11 @@ package OOP;
 
 public class GetAndSet1 {
     public static void main(String[] args) {
-        Person person = new Person();
+        Person1 person = new Person1();
 
 
 }
-  public class  Person{
+  public static class  Person1{
         private String name;
         private int age;
         private char sex;

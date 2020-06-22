@@ -11,7 +11,7 @@ public class SortirovkaFile {
         File dir = new File("C://Users//Larisa//Downloads//file.txt"); // путь_к_каталогу, к файлу
         FileReader fr = new FileReader(dir);  //FileReader и Scanner идут вместе. Неободимо их "связать" - для этого пишем название нашего объекта FileReader в Scanner
         Scanner scan = new Scanner(fr);
-        ArrayList arrayList = new ArrayList(); // создание массива ArrayList
+        ArrayList<String>arrayList = new ArrayList<String> (); // создание массива ArrayList
         // String []arrayStr= new String[10001];
         int i = 0;// i-внешний счетчик для записи в массив, r,b-счетчик для извлечения из массива строки для сортировки,с - счетчик для подсчета колчества одинаковых строк
         String a;
